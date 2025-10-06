@@ -1,0 +1,50 @@
+# Next.js build output
+.next/
+out/
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific files
+.DS_Store
+
+# npm package manager cache
+.npm/
+
+# yarn package manager cache
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-artifacts/
+.yarn/install-state.yml
+
+# pnpm package manager cache
+.pnpm-store/
+
+# Next.js specific cache files
+.next/cache/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Vercel deployment files (if applicable)
+.vercel/
